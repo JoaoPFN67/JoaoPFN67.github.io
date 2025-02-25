@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Enviada - WM Climatizações Predial</title>
+    <style>
+        :root {
+            --primary-color: #0077b6;
+            --secondary-color: #48cae4;
+            --dark-color: #03045e;
+            --light-color: #caf0f8;
+            --white: #ffffff;
+            --dark-text: #333333;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            color: var(--dark-text);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+            background-color: var(--light-color);
+        }
+        
+        .container {
+            max-width: 800px;
+            background-color: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+        
+        p {
+            margin-bottom: 30px;
+            font-size: 1.2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: var(--dark-color);
+        }
+        
+        .success-icon {
+            font-size: 5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success-icon">✓</div>
+        <h1>Mensagem Enviada com Sucesso!</h1>
+        <p>Agradecemos o seu contato. Nossa equipe entrará em contato o mais breve possível.</p>
+        <a href="index.html" class="btn">Voltar para o site</a>
+    </div>
+</body>
+</html>
